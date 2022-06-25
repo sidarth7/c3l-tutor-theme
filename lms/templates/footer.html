@@ -15,17 +15,17 @@
     <footer>
       <div class="row">
         <div class="col-md-9">
-          {% if C3LTHEME_FOOTER_NAV_LINKS %}
-          <nav class="navbar site-nav navbar-expand-sm" aria-label="${_('About')}">
-            <ul class="navbar-nav">
-              {% for link in C3LTHEME_FOOTER_NAV_LINKS %}
-                <li class="nav-item">
-                  <a class="nav-link" href="{{ link['url'] }}">{{ link['title'] }}</a>
-                </li>
-              {% endfor %}
-            </ul>
-          </nav>
-          {% endif %}
+          ##{% if C3LTHEME_FOOTER_NAV_LINKS %}
+          ##<nav class="navbar site-nav navbar-expand-sm" aria-label="${_('About')}">
+          ##  <ul class="navbar-nav">
+          ##    {% for link in C3LTHEME_FOOTER_NAV_LINKS %}
+          ##      <li class="nav-item">
+          ##        <a class="nav-link" href="{{ link['url'] }}">{{ link['title'] }}</a>
+          ##      </li>
+          ##    {% endfor %}
+          ##  </ul>
+          ##</nav>
+          ##{% endif %}
 
           ## Site operators: Please do not remove this paragraph! This attributes back to edX and makes your acknowledgement of edX's trademarks clear.
           <p class="copyright">${footer['copyright']}
