@@ -37,17 +37,17 @@
               % endif
           </p>
 
-          {% if C3LTHEME_FOOTER_LEGAL_LINKS %}
-          <nav class="navbar legal-nav navbar-expand-sm" aria-label="${_('Legal')}">
-            <ul class="navbar-nav">
-              {% for link in C3LTHEME_FOOTER_LEGAL_LINKS %}
-                <li class="nav-item">
-                  <a class="nav-link" href="{{ link['url'] }}">{{ link['title'] }}</a>
-                </li>
-              {% endfor %}
-            </ul>
-          </nav>
-          {% endif %}
+          ##{% if C3LTHEME_FOOTER_LEGAL_LINKS %}
+          ##<nav class="navbar legal-nav navbar-expand-sm" aria-label="${_('Legal')}">
+          ##  <ul class="navbar-nav">
+          ##    {% for link in C3LTHEME_FOOTER_LEGAL_LINKS %}
+          ##      <li class="nav-item">
+          ##        <a class="nav-link" href="{{ link['url'] }}">{{ link['title'] }}</a>
+          ##      </li>
+          ##    {% endfor %}
+          ##  </ul>
+          ##</nav>
+          ##{% endif %}
         </div>
         <div class="col-md-3">
           ## Please leave this link and use one of the logos provided
@@ -121,17 +121,17 @@
               % endif
           </p>
 
-        {% if C3LTHEME_FOOTER_LEGAL_LINKS %}
-        <nav class="nav-legal" aria-label="${_('Legal')}">
-          <ul>
-            {% for link in C3LTHEME_FOOTER_LEGAL_LINKS %}
-              <li>
-                <a href="{{ link['url'] }}">{{ link['title'] }}</a>
-              </li>
-            {% endfor %}
-          </ul>
-        </nav>
-        {% endif %}
+        ##{% if C3LTHEME_FOOTER_LEGAL_LINKS %}
+        ##<nav class="nav-legal" aria-label="${_('Legal')}">
+        ##  <ul>
+        ##    {% for link in C3LTHEME_FOOTER_LEGAL_LINKS %}
+        ##      <li>
+        ##        <a href="{{ link['url'] }}">{{ link['title'] }}</a>
+        ##      </li>
+        ##    {% endfor %}
+        ##  </ul>
+        ##</nav>
+        ##{% endif %}
       </div>
 
       ## Please leave this link and use one of the logos provided
